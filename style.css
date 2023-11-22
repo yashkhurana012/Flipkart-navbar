@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    height: 8px;
+    background-color: aliceblue;
+    border: none;
+}
+
+header{
+    height: 65px;
+    display: flex;
+    justify-content :space-between;
+    
+}
+
+.logo{
+    margin-left: 1px;
+    margin-top: 1px ;
+}
+
+.inputs{
+    background-color: aliceblue;
+    width: 550px;
+    height: 42px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 13.5px;
+    margin-left: -25px;
+}
+
+input{
+    background-color: aliceblue;
+    border: none;
+    height: 100%;
+    width: 700px;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 10px;
+    
+}
+
+.inputs i{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 2px;
+}
+
+.button{
+    /* margin-top: 8px; */
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    font-size: 17.5px;
+}
+
+
+.button .img1{
+
+    font-size: 1px;
+}
+
+.button span{
+    padding: 0px 8px;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-left: -10px;
+}
+
+.cart span{
+    padding: 0px 10px;
+}
+
+.become{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-left: -20px;
+}
+
+.become span{
+    padding: 0px 10px;
+}
+
+.more{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    gap: 54px;
+    
+
+}
+
+.product img{
+    width: 65px;
+    height: 65px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product span{
+    margin-top: 10px;
+    font-weight: bolder;
+}
